@@ -2,7 +2,7 @@
 //  EmailViewController.m
 //  MySugar
 //
-//  Created by Charles Konkol on 3/12/13.
+//  Created by Charles Konkol on 10/10/13.
 //  Copyright (c) 2013 RVC Student. All rights reserved.
 //
 
@@ -149,5 +149,19 @@
 }
 -(IBAction) doneEditing:(id) sender {
     [sender resignFirstResponder];
+}
+- (void)textFieldDidBeginEditing:(UITextField *)textField {
+    CGPoint scrollPoint = CGPointMake(0, textField.frame.origin.y);
+    [scrollView setContentOffset:scrollPoint animated:YES];
+}
+- (void)textFieldDidEndEditing:(UITextField *)textField {
+    [scrollView setContentOffset:CGPointZero animated:YES];
+}
+- (void)textViewDidBeginEditing:(UITextView *)textView {
+    CGPoint scrollPoint = CGPointMake(0, textView.frame.origin.y);
+    [scrollView setContentOffset:scrollPoint animated:YES];
+}
+- (void)textViewDidEndEditing:(UITextView *)textView {
+    [scrollView setContentOffset:CGPointZero animated:YES];
 }
 @end

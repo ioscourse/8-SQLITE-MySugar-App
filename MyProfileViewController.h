@@ -2,7 +2,7 @@
 //  MyProfileViewController.h
 //  MySugar
 //
-//  Created by Charles Konkol on 3/12/13.
+//  Created by Charles Konkol on 10/10/13.
 //  Copyright (c) 2013 RVC Student. All rights reserved.
 //
 

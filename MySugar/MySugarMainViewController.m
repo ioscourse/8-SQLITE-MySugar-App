@@ -2,7 +2,7 @@
 //  MySugarMainViewController.m
 //  MySugar
 //
-//  Created by Charles Konkol on 3/10/13.
+//  Created by Charles Konkol on 10/10/13.
 //  Copyright (c) 2013 RVC Student. All rights reserved.
 //
 
