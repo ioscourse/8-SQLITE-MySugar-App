@@ -211,6 +211,11 @@
 				CLASSPREFIX = MySugar;
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "RVC Student";
+				TargetAttributes = {
+					12AF606016EC5BEA00B97767 = {
+						DevelopmentTeam = LAK6SGQ7Q5;
+					};
+				};
 			};
 			buildConfigurationList = 12AF605C16EC5BEA00B97767 /* Build configuration list for PBXProject "MySugar" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -347,6 +352,7 @@
 		12AF608816EC5BEA00B97767 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MySugar/MySugar-Prefix.pch";
 				INFOPLIST_FILE = "MySugar/MySugar-Info.plist";
@@ -360,6 +366,7 @@
 		12AF608916EC5BEA00B97767 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MySugar/MySugar-Prefix.pch";
 				INFOPLIST_FILE = "MySugar/MySugar-Info.plist";
